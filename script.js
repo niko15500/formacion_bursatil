@@ -15,22 +15,40 @@ let entrada = 0
 let contador = 0
 let suma = 0
 
-const promedio = (suma, nota) => suma/nota
+//const promedio = (suma, nota) => suma/nota
 
-while (true) {
-    entrada = prompt('Ingrese sus notas (listo para salir)');
-    if (entrada == 'listo'){
-        break
-    }
-    let notta = parseInt(entrada)
+//while (true) {
+ //   entrada = prompt('Ingrese sus notas (listo para salir)');
+  //  if (entrada == 'listo'){
+   //     break
+  //  }
+   // let notta = parseInt(entrada)
 
-    if ( notta >= 0 && notta <= 10) {
-      contador++
-      suma += notta
-    } else {
-        alert ('Esa calificacion no es valida')
-    }
+   // if ( notta >= 0 && notta <= 10) {
+   //   contador++
+    //  suma += notta
+   // } else {
+ //       alert ('Esa calificacion no es valida')
+  //  }
+//}
+
+//console.log('suma', suma);
+//console.log('promedio', promedio(suma, contador));
+console.log("trabajo complementario");
+
+let calificaicones = [5];
+
+for (let i = 0;  i < calificaicones.length; 1++){
+    console.log(i, calificaicones[i])
 }
 
-console.log('suma', suma);
-console.log('promedio', promedio(suma, contador));
+let califQuitada = calificaicones.shift()
+console.log(califQuitada);
+console.log(calificaicones);
+
+
+
+
+
+
+
